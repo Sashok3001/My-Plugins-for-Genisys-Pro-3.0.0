@@ -1,0 +1,13 @@
+name: OtherWorldlyTpX 
+main: Plugin\Main      
+api: 3.0.0                      
+version: 1.0                  
+author: Sashok3002               
+commands:
+  tpwp:
+    description: Телепортирует игрока в определённую точку в определённый мир
+    permission: tpwp.use
+permissions:
+  tpwp.use:
+    description: Даёт право использовать команду /tpwp
+    default: op
